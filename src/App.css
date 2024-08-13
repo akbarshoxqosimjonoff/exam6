@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+.container {
+  width: 1331px;
+  padding: 20px;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-new {
+  width: 249.5px;
+  height: 88px;
+  padding: 16px 20px;
+  gap: 8px;
+  border-radius: 12px;
+  border: 1px;
+  opacity: 0px;
+  background: #fcf9f9cd;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-new:hover {
+  background: #834cff1a;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-card {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 100px;
+}
+
+.btn-my {
+  width: 249.5px;
+  height: 88px;
+  padding: 16px 20px;
+  gap: 8px;
+  border-radius: 12px;
+  border: 1px;
+  opacity: 0px;
+  background: #fcf9f9cd;
+}
+.btn-my:hover {
+  background: #834cff1a;
+}
+.btns {
+  display: flex;
+  gap: 12px;
+}
+.title-c {
+  width: 236px;
+  height: 48px;
+  gap: 0px;
+  opacity: 0px;
+  font-weight: 900;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #000000;
+}
+
+.subs_ctitle {
+  font-family: Helvetica Now Display;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.9px;
+  text-align: left;
+  color: #707f8f;
+}
+.inp-title {
+  color: #707f8f;
+}
+.name-inp {
+  width: 400px;
+}
+.buttons {
+  padding-top: 10px;
+}
+.can-btn {
+  width: 252px;
+  height: 56px;
+  padding: 8px 20px 8px 18px;
+  gap: 6px;
+  border-radius: 12px;
+  opacity: 0px;
+  background: #f2f5f7;
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+.my-btn {
+  width: 252px;
+  height: 56px;
+  padding: 8px 20px 8px 18px;
+  gap: 6px;
+  border-radius: 12px;
+  opacity: 0px;
+  background: #f2f5f7;
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+.my-btn:hover {
+  background: #834cff;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.can-btn:hover {
+  background: #834cff;
+  color: white;
 }
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.footer-title {
+  width: 430px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.8px;
+  text-align: left;
+  color: #707F8F;
+
+}
+.back-img img {
+  width: 730px;
+  height: 700px;
 }
